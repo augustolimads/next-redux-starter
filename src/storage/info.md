@@ -1,0 +1,1 @@
+redux, reducers e actions
