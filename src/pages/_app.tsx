@@ -1,11 +1,13 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import GlobalStyles from 'src/theme/global'
 import { ThemeProvider } from 'styled-components'
 import { theme } from 'src/theme'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <Head>
         <title>Next Starter with redux and sass</title>
         <link rel='shortcut icon' href='/img/icon-512.png' />

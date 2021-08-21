@@ -1,6 +1,8 @@
+import * as S from './styles'
+
 const Main = () => (
   <div>
-    <h1>Main</h1>
+    <S.Title>Main</S.Title>
   </div>
 )
 

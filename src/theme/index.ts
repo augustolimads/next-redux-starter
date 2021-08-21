@@ -10,4 +10,4 @@ export const theme = {
   fontWeights
 }
 
-export type ThemeProps = typeof theme
+export type ThemeType = typeof theme
