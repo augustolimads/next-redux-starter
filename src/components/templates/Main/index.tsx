@@ -1,7 +1,5 @@
-import S from './Main.module.scss'
-
 const Main = () => (
-  <div className={S.grid}>
+  <div>
     <h1>Main</h1>
   </div>
 )
