@@ -3,9 +3,9 @@ import Head from 'next/head'
 import { Provider } from 'react-redux'
 import { CookiesProvider } from 'react-cookie'
 import { ThemeProvider } from 'styled-components'
-import GlobalStyles from 'src/theme/global'
-import { theme } from 'src/theme'
-import store from 'src/store'
+import GlobalStyles from 'theme/global'
+import { theme } from 'theme'
+import store from 'store'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
