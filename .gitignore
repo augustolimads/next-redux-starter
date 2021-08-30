@@ -32,3 +32,14 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# sw stuff
+public/sw.js 
+public/workbox-*.js
+/storybook-static
