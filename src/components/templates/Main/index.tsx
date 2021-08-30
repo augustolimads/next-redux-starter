@@ -1,4 +1,4 @@
-import { Button } from 'src/components/Button'
+import { Button } from 'components/Button'
 import * as S from './styles'
 
 const Main = () => {

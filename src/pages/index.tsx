@@ -1,4 +1,4 @@
-import Main from 'src/components/templates/Main'
+import Main from 'components/templates/Main'
 
 export default function Index() {
   return <Main />
