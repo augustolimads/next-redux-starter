@@ -3,12 +3,12 @@ import * as S from './styles'
 
 const Main = () => {
   function handleClick() {
-    alert('disparou!')
+    alert('it works!')
   }
   return (
     <div>
-      <S.Title>Testando o theme</S.Title>
-      <Button onClick={handleClick}>Clica neu</Button>
+      <S.Title>Next Starter</S.Title>
+      <Button onClick={handleClick}>Click me</Button>
     </div>
   )
 }
