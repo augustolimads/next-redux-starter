@@ -3,8 +3,8 @@ import Head from 'next/head'
 import { Provider } from 'react-redux'
 import { CookiesProvider } from 'react-cookie'
 import { ThemeProvider } from 'styled-components'
-import GlobalStyles from 'theme/global'
-import { theme } from 'theme'
+import GlobalStyles from 'styles/global'
+import theme from 'styles/theme'
 import store from 'store'
 
 function MyApp({ Component, pageProps }: AppProps) {
